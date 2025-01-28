@@ -7,6 +7,7 @@
 *.css linguist-detectable=true
 
 # 특정 폴더나 파일 제외 (너무 큰 비중 차지하는 경우)
+templates/* linguist-vendored
 static/* linguist-vendored
 node_modules/* linguist-vendored
 *.min.js linguist-vendored
