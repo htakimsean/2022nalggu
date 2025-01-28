@@ -1,2 +1,9 @@
-*.javascript linguist-detectable=false
+# 템플릿 파일 무시
 *.html linguist-detectable=false
+
+# 정적 파일 무시
+*.js linguist-detectable=false
+*.css linguist-detectable=false
+
+# Python 파일 강조
+*.py linguist-detectable=true
