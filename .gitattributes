@@ -3,3 +3,4 @@ static/* linguist-vendored
 
 # 템플릿의 기본 HTML 파일 제외
 templates/*.html linguist-vendored
+static/css/* linguist-vendored
