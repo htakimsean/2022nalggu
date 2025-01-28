@@ -1,9 +1,13 @@
-# 템플릿 파일 무시
-*.html linguist-detectable=false
 
-# 정적 파일 무시
-*.js linguist-detectable=false
-*.css linguist-detectable=false
-
-# Python 파일 강조
 *.py linguist-detectable=true
+
+
+*.html linguist-detectable=true
+
+
+*.js linguist-detectable=true
+*.css linguist-detectable=true
+
+
+static/* linguist-vendored
+node_modules/* linguist-vendored
