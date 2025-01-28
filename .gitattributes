@@ -1,13 +1,12 @@
-
+# Python 파일은 무조건 감지
 *.py linguist-detectable=true
 
-
+# HTML, JavaScript, CSS도 포함하되 비중 조정
 *.html linguist-detectable=true
-
-
 *.js linguist-detectable=true
 *.css linguist-detectable=true
 
-
+# 특정 폴더나 파일 제외 (너무 큰 비중 차지하는 경우)
 static/* linguist-vendored
 node_modules/* linguist-vendored
+*.min.js linguist-vendored
